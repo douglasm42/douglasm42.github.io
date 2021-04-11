@@ -11,10 +11,10 @@ import Header from './components/header/Header'
 import Content from './components/content/Content'
 import Footer from './components/footer/Footer'
 
-import Blog from './pages/Blog'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
-import About from './pages/About'
+import Blog from './layouts/Blog'
+import Projects from './layouts/Projects'
+import Contact from './layouts/Contact'
+import About from './layouts/About'
 
 export default function App() {
   return (
