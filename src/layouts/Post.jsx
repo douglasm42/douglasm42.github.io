@@ -12,7 +12,7 @@ export default function Post({info, markdownFile}) {
   }, [markdownFile]);
 
   return (
-    <Article title={info.title} createdAt={info.createdAt}>
+    <Article title={info.title} footer={`Posted in: ${info.createdAt}`}>
       <ReactMarkdown>{text}</ReactMarkdown>
     </Article>
   )

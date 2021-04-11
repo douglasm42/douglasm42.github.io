@@ -3,7 +3,7 @@ import './Article.css'
 
 import Card from './Card'
 
-export default function Article({title, createdAt, children}) {
+export default function Article({title, footer, children}) {
   return (
     <Card>
       <article className="article">
@@ -11,8 +11,8 @@ export default function Article({title, createdAt, children}) {
         <div className="article-content">
           {children}
         </div>
-        <div className="article-date">
-          Published in: {createdAt}
+        <div className="article-footer">
+          {footer}
         </div>
       </article>
     </Card>

@@ -1,8 +1,8 @@
-import colors from './projects/colors.json'
-import colorsText from './projects/colors.md'
+import colorsInfo from './projects/colors.json'
+import colorsPath from './projects/colors.md'
 
 const projects = [
-  {info: colors, text: colorsText}
+  {info: colorsInfo, path: colorsPath},
 ]
 
 export default projects
