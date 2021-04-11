@@ -9,3 +9,5 @@ if(!fs.existsSync('./docs')) {
 } else {
   console.error('ERROR: Failed to remove the old published build.')
 }
+
+fs.writeFileSync('./docs/CNAME', 'douglasm42.dev')
