@@ -1,0 +1,25 @@
+.article {
+  padding: 15px;
+}
+
+.article-title {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #d197d9;
+}
+
+.article-content {
+  border-top: 1px solid #393939;
+  border-bottom: 1px solid #393939;
+  padding: 15px;
+  color: #fff;
+}
+
+.article-date {
+  color: #bed6ff;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+}

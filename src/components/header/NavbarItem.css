@@ -1,0 +1,31 @@
+.navbar-item {
+  padding: 5px;
+}
+
+.navbar-item-link {
+  display: block;
+  width: 150px;
+  padding: 1px 5px 3px 5px;
+  border: none;
+  border-bottom: 2px solid #ffc66d;
+  color: #ffc66d;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto Mono', monospace;
+
+  background: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.navbar-item-link:visited {
+  color: #ffc66d;
+}
+
+.navbar-item-link:hover {
+  color: #bed6ff;
+  border-bottom: 2px solid #bed6ff;
+}

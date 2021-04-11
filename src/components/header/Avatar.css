@@ -1,0 +1,30 @@
+.avatar-image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 15px auto;
+  box-shadow: 0 1px 10px #2d2d2d;
+}
+
+@media screen and (max-width: 620px) {
+  .avatar-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 0 1px 10px #2d2d2d;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .avatar-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 0 1px 10px #2d2d2d;
+  }
+}
