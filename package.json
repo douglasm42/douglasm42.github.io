@@ -20,6 +20,9 @@
     "eject": "react-scripts eject",
     "prebuild": "node prebuild.js"
   },
+  "bin": {
+    "gen": "generate.js"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "commander": "^7.2.0"
   }
 }

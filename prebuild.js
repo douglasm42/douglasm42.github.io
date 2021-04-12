@@ -7,7 +7,7 @@ function generatePagesIndexFile(root, folder, name) {
   const pagesFiles = fs.readdirSync(pagesFolder)
 
   const pages = pagesFiles.map(file => {
-    return file.match(/(.*)\.([^\.]*?)$/)
+    return file.match(/\d*_(.*)\.([^\.]*?)$/)
   }).reduce((groups, file) => {
     let fileInfo = groups[file[1]] = (groups[file[1]] || {filename: file[1]})
 

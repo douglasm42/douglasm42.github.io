@@ -1,12 +1,12 @@
-import novo_postInfo from './articles/novo_post.json'
-import novo_postPath from './articles/novo_post.md'
+import TesteInfo from './articles/20210412003203_Teste.json'
+import TestePath from './articles/20210412003203_Teste.md'
 
-import testInfo from './articles/test.json'
-import testPath from './articles/test.md'
+import segundo_postInfo from './articles/20210412003521_segundo_post.json'
+import segundo_postPath from './articles/20210412003521_segundo_post.md'
 
 const articles = [
-  {info: novo_postInfo, path: novo_postPath},
-  {info: testInfo, path: testPath},
+  {info: TesteInfo, path: TestePath},
+  {info: segundo_postInfo, path: segundo_postPath},
 ]
 
 export default articles
