@@ -16,6 +16,7 @@ body {
   background-color: #3a4557;
   color: #fff;
   font-family: 'Lato', sans-serif;
+  min-height: 100vh;
 }
 
 code {
