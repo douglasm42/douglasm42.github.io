@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs')
 
 const { program } = require('commander');
@@ -23,8 +25,6 @@ function isoTimestamp(ts) {
 }
 
 function createProject(filename) {
-  console.log('Aqui!')
-
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   
@@ -39,8 +39,6 @@ function createProject(filename) {
 }
 
 function createPost(filename) {
-  console.log('Aqui!')
-
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   

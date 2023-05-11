@@ -14,10 +14,10 @@ export default function Header() {
       <Avatar image={avatarImage}/>
       <MainTitle title="Douglas de Freitas" />
       <Navbar>
-        <NavbarItem title="Blog" path="/" />
+        <NavbarItem title="About" path="/" />
+        <NavbarItem title="Blog" path="/blog" />
         <NavbarItem title="Projects" path="/projects" />
         <NavbarItem title="Contact" path="/contact" />
-        <NavbarItem title="About" path="/about" />
       </Navbar>
     </header>
   )

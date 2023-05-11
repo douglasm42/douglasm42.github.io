@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+}
+
+.about-bio {
+  width: 60%;
+  padding: 20px;
+}
+
+.about-skills {
+  width: 40%;
+}
+
+@media screen and (max-width: 750px) {
+  .about-bio {
+    width: 100%;
+  }
+  
+  .about-skills {
+    width: 100%;
+  }
+}

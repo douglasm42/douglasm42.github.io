@@ -29,11 +29,11 @@ export default function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/blog">
+              <Blog />
             </Route>
             <Route path="/">
-              <Blog />
+              <About />
             </Route>
           </Switch>
         </Content>

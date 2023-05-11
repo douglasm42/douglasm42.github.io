@@ -21,7 +21,7 @@
     "prebuild": "node prebuild.js"
   },
   "bin": {
-    "gen": "generate.js"
+    "doug-gen": "generate.js"
   },
   "eslintConfig": {
     "extends": [

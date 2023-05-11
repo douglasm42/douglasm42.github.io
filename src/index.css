@@ -23,3 +23,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: #6c99bb;
+}
+
+.fg-black  { color: #000000; }
+.fg-dark   { color: #2d2d2d; }
+.fg-gray6  { color: #393939; }
+.fg-gray5  { color: #515151; }
+.fg-gray4  { color: #777777; }
+.fg-gray3  { color: #b4b7b4; }
+.fg-gray2  { color: #cccccc; }
+.fg-gray1  { color: #e0e0e0; }
+.fg-white  { color: #ffffff; }
+.fg-red    { color: #d25252; }
+.fg-orange { color: #f9a959; }
+.fg-yellow { color: #ffc66d; }
+.fg-green  { color: #a5c261; }
+.fg-lblue  { color: #bed6ff; }
+.fg-blue   { color: #6c99bb; }
+.fg-purple { color: #d197d9; }
+.fg-pink   { color: #f97394; }
+
+.bg-black  { background-color: #000000; }
+.bg-dark   { background-color: #2d2d2d; }
+.bg-gray6  { background-color: #393939; }
+.bg-gray5  { background-color: #515151; }
+.bg-gray4  { background-color: #777777; }
+.bg-gray3  { background-color: #b4b7b4; }
+.bg-gray2  { background-color: #cccccc; }
+.bg-gray1  { background-color: #e0e0e0; }
+.bg-white  { background-color: #ffffff; }
+.bg-red    { background-color: #d25252; }
+.bg-orange { background-color: #f9a959; }
+.bg-yellow { background-color: #ffc66d; }
+.bg-green  { background-color: #a5c261; }
+.bg-lblue  { background-color: #bed6ff; }
+.bg-blue   { background-color: #6c99bb; }
+.bg-purple { background-color: #d197d9; }
+.bg-pink   { background-color: #f97394; }

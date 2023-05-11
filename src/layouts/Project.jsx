@@ -12,9 +12,17 @@ export default function Project({info, markdownFile}) {
       .then(responseText => setText(responseText))
   }, [markdownFile]);
 
+  let links = []
+
+  if(info.homepage) {
+    links.push(<ArticleLink href={info.homepage} text="live demo" icon="home" />)
+  }
+  if(info.repository) {
+    links.push(<ArticleLink href={info.repository} text="source" icon="git-square" />)
+  }
+
   const footer = (<React.Fragment>
-    <ArticleLink href={info.homepage} text="live demo" icon="home" />
-    <ArticleLink href={info.repository} text="source" icon="git-square" /><br/>
+    {links}<br/>
     Updated at: {info.updatedAt}
   </React.Fragment>)
 
