@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6bf4d63.chunk.css",
-    "main.js": "/static/js/main.5c0fddc2.chunk.js",
-    "main.js.map": "/static/js/main.5c0fddc2.chunk.js.map",
+    "main.css": "/static/css/main.ff3f9ed9.chunk.css",
+    "main.js": "/static/js/main.6589f7f8.chunk.js",
+    "main.js.map": "/static/js/main.6589f7f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7ffcbbd6.js",
     "runtime-main.js.map": "/static/js/runtime-main.7ffcbbd6.js.map",
-    "static/js/2.af1911f5.chunk.js": "/static/js/2.af1911f5.chunk.js",
-    "static/js/2.af1911f5.chunk.js.map": "/static/js/2.af1911f5.chunk.js.map",
+    "static/js/2.ff13a5f1.chunk.js": "/static/js/2.ff13a5f1.chunk.js",
+    "static/js/2.ff13a5f1.chunk.js.map": "/static/js/2.ff13a5f1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b6bf4d63.chunk.css.map": "/static/css/main.b6bf4d63.chunk.css.map",
-    "static/js/2.af1911f5.chunk.js.LICENSE.txt": "/static/js/2.af1911f5.chunk.js.LICENSE.txt",
+    "static/css/main.ff3f9ed9.chunk.css.map": "/static/css/main.ff3f9ed9.chunk.css.map",
+    "static/js/2.ff13a5f1.chunk.js.LICENSE.txt": "/static/js/2.ff13a5f1.chunk.js.LICENSE.txt",
     "static/media/20210411003203_colors.89664e8b.md": "/static/media/20210411003203_colors.89664e8b.md",
-    "static/media/20210412003203_Teste.9fb3180e.md": "/static/media/20210412003203_Teste.9fb3180e.md",
-    "static/media/20210412003521_segundo_post.172dca07.md": "/static/media/20210412003521_segundo_post.172dca07.md",
-    "static/media/20210412004319_mapa_do_bairro.f55137e2.md": "/static/media/20210412004319_mapa_do_bairro.f55137e2.md",
+    "static/media/20210412003203_test.1990a4d9.md": "/static/media/20210412003203_test.1990a4d9.md",
+    "static/media/20210412004319_mapa_do_bairro.f49f60eb.md": "/static/media/20210412004319_mapa_do_bairro.f49f60eb.md",
+    "static/media/20230511082635_typhoon.0ac32921.md": "/static/media/20230511082635_typhoon.0ac32921.md",
+    "static/media/20230511083645_cascalho.895d0012.md": "/static/media/20230511083645_cascalho.895d0012.md",
     "static/media/avatar.039bcb85.jpg": "/static/media/avatar.039bcb85.jpg",
     "static/media/index.css": "/static/media/background-img.a3a13498.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ffcbbd6.js",
-    "static/js/2.af1911f5.chunk.js",
-    "static/css/main.b6bf4d63.chunk.css",
-    "static/js/main.5c0fddc2.chunk.js"
+    "static/js/2.ff13a5f1.chunk.js",
+    "static/css/main.ff3f9ed9.chunk.css",
+    "static/js/main.6589f7f8.chunk.js"
   ]
 }
