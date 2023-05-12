@@ -20,7 +20,7 @@ function generatePagesIndexFile(root, folder, name) {
     return groups
   }, {})
 
-  pagesObjects = []
+  let pagesObjects = []
 
   // clear file
   fs.writeFileSync(targetFilename, '')
