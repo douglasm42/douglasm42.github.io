@@ -2,8 +2,9 @@ import React from 'react'
 import './Skill.css'
 
 import ProgressBar from './ProgressBar'
+import Tag from './Tag'
 
-export default function Skill({name, current, max}) {
+export default function Skill({name, current, max, level}) {
   return (
     <div class="skill-root">
       <div class="skill-container">

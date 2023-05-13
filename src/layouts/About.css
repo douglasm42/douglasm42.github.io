@@ -5,11 +5,16 @@
 
 .about-bio {
   width: 60%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .about-skills {
   width: 40%;
+  padding: 10px;
+}
+
+.about-spacer {
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 750px) {

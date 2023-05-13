@@ -2,5 +2,6 @@
   "title": "Mapa do Bairro",
   "homepage": "https://douglasm42.dev/mapa-do-bairro",
   "repository": "https://github.com/douglasm42/mapa-do-bairro",
+  "tags": ["React.js", "Google Maps API", "Wikipedia API"],
   "updatedAt": "2021-04-12 00:43"
 }

@@ -27,7 +27,7 @@ export default function Project({info, markdownFile}) {
   </React.Fragment>)
 
   return (
-    <Article title={info.title} footer={footer}>
+    <Article title={info.title} tags={info.tags} footer={footer}>
       <ReactMarkdown>{text}</ReactMarkdown>
     </Article>
   )

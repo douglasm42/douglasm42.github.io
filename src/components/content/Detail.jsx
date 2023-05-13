@@ -4,7 +4,7 @@ import './Detail.css'
 import Tag from './Tag'
 
 export default function Detail({name, tags=[], children}) {
-  const componentTags = tags.map(tag => (<Tag color='green'>{tag}</Tag> ))
+  const componentTags = tags.map(tag => (<Tag color='green' type='sup'>{tag}</Tag> ))
   return (
     <div className='detail'>
       <div className='detail-name'><strong>{componentTags} {name}:</strong></div>

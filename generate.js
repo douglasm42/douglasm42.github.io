@@ -32,6 +32,7 @@ function createProject(filename) {
   "title": "${filename}",
   "homepage": "https://example.com",
   "repository": "https://github.com/douglasm42/${filename}",
+  "tags": [],
   "updatedAt": "${isoTimestamp(ts)}"
 }
 `)
@@ -44,6 +45,7 @@ function createPost(filename) {
   
   fs.writeFileSync(`./src/pages/articles/${filenameTimestamped}.json`, `{
   "title": "${filename}",
+  "tags": [],
   "createdAt": "${isoTimestamp(ts)}"
 }
 `)
