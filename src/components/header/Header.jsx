@@ -6,7 +6,7 @@ import Avatar from './Avatar'
 import Navbar from './Navbar'
 import NavbarItem from './NavbarItem'
 
-import avatarImage from '../../images/avatar.jpg';
+import avatarImage from '../../images/avatar.jpeg';
 
 export default function Header() {
   return (
