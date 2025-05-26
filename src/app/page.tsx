@@ -8,6 +8,27 @@ import Title from '@/components/content/Title'
 import Ruler from '@/components/content/Ruler'
 import Skill from '@/components/content/Skill'
 import Tag from '@/components/content/Tag'
+import { differenceInMonths } from 'date-fns'
+
+function totalXP(previous: number, countingFrom: string): number {
+  const timestamp = new Date(countingFrom)
+
+  return (differenceInMonths(new Date(), timestamp) + previous)
+}
+
+function softwareEngineerXP(): number {
+  return totalXP(86, '2023-09-21T11:00:00.000Z')
+}
+
+function rubyOnRailsXP() {
+  return totalXP(76, '2023-09-21T11:00:00.000Z')
+}
+function reactXP() {
+  return totalXP(0, '2023-09-21T11:00:00.000Z')
+}
+function javascriptXP() {
+  return totalXP(36, '2023-09-21T11:00:00.000Z')
+}
 
 export default function Page() {
   return (
@@ -47,30 +68,32 @@ export default function Page() {
           <div>
             <Title level='h6'>Hard Skills</Title>
             <Ruler/>
-            <Skill name="Software Engineering" current={7} max={7} />
-            <Skill name="PostgreSQL/SQL" current={6} max={7} />
-            <Skill name="Ruby/Ruby on Rails" current={6} max={7} />
-            <Skill name="RSpec" current={2} max={7} />
-            <Skill name="Javascript" current={3} max={7} />
-            <Skill name="Java/JSF/Hybernate" current={1} max={7} />
-            <Tag color='purple' type='middle'>Scrum</Tag>
-            <Tag color='purple' type='middle'>Agile</Tag>
-            <Tag color='purple' type='middle'>TDD</Tag>
-            <Tag color='purple' type='middle'>C++</Tag>
-            <Tag color='purple' type='middle'>React</Tag>
+            <Skill name="Software Engineering" current={softwareEngineerXP()} max={softwareEngineerXP()} />
+            <Skill name="Ruby/Ruby on Rails" current={rubyOnRailsXP()} max={softwareEngineerXP()} />
+            <Skill name="JavaScript/TypeScript" current={javascriptXP()} max={softwareEngineerXP()} />
+            <Skill name="React" current={reactXP()} max={softwareEngineerXP()} />
+            <Skill name="Java/JSF/Hybernate" current={10} max={softwareEngineerXP()} />
+            <p>
+              <b>Other skills:</b><br />
+              <Tag color='purple'>Scrum</Tag>
+              <Tag color='purple'>Agile</Tag>
+              <Tag color='purple'>TDD</Tag>
+              <Tag color='purple'>C++</Tag>
+              <Tag color='purple'>SQL</Tag>
+            </p>
           </div>
           <div className="about-spacer">
             <Title level='h6'>Soft Skills</Title>
             <Ruler/>
-            <Tag color='orange' type='middle'>Problem Solving</Tag>
-            <Tag color='orange' type='middle'>Ability to Learn</Tag>
-            <Tag color='orange' type='middle'>Patience</Tag>
-            <Tag color='orange' type='middle'>Flexibility</Tag>
-            <Tag color='orange' type='middle'>Empathy</Tag>
-            <Tag color='orange' type='middle'>Communication</Tag>
-            <Tag color='orange' type='middle'>Teamwork</Tag>
-            <Tag color='orange' type='middle'>Self-Confidence</Tag>
-            <Tag color='orange' type='middle'>Time Management</Tag>
+            <Tag color='orange'>Problem Solving</Tag>
+            <Tag color='orange'>Ability to Learn</Tag>
+            <Tag color='orange'>Patience</Tag>
+            <Tag color='orange'>Flexibility</Tag>
+            <Tag color='orange'>Empathy</Tag>
+            <Tag color='orange'>Communication</Tag>
+            <Tag color='orange'>Teamwork</Tag>
+            <Tag color='orange'>Self-Confidence</Tag>
+            <Tag color='orange'>Time Management</Tag>
           </div>
         </div>
       </div>
