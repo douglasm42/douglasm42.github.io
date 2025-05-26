@@ -31,10 +31,10 @@ export default function Project({ metadataFile, markdownFile }: ProjectProps) {
 
   if(metadata && markdown) {
     if(metadata.homepage) {
-      links.push(<ArticleLink href={metadata.homepage} text="live demo" icon="home" />)
+      links.push(<ArticleLink key={metadata.homepage.toString()} href={metadata.homepage} text="live demo" icon="home" />)
     }
     if(metadata.repository) {
-      links.push(<ArticleLink href={metadata.repository} text="source" icon="git-square" />)
+      links.push(<ArticleLink key={metadata.repository.toString()} href={metadata.repository} text="source" icon="git-square" />)
     }
 
     const footer = (<React.Fragment>
