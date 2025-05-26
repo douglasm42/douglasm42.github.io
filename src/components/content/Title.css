@@ -3,7 +3,7 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 35px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 
 .title-h2 {
@@ -11,7 +11,7 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 30px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 
 .title-h3 {
@@ -19,7 +19,7 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 25px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 
 .title-h4 {
@@ -27,7 +27,7 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 23px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 
 .title-h5 {
@@ -35,7 +35,7 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 21px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 
 .title-h6 {
@@ -43,6 +43,6 @@
   margin-bottom: 15px;
   text-align: center;
   font-size: 19px;
-  color: #d197d9;
+  color: var(--color-purple);
 }
 

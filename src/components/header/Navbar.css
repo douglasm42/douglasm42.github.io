@@ -1,9 +1,9 @@
 .navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #2d2d2d;
+  background-color: var(--color-dark);
   width: 100%;
-  box-shadow: 0 1px 10px #2d2d2d;
+  box-shadow: 0 1px 10px var(--color-dark);
 }
 
 .navbar-items {
