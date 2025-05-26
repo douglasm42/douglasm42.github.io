@@ -1,10 +1,12 @@
-This is my personal website. Built using ReactJS and create-react-app.
+This is my personal website. Built using Next.js.
 
 # Running
 
 To run in development mode, use the command: `yarn dev`
 
-To build and deploy, use the command: `yarn build`
+To build, use the command: `yarn build`
+
+To deploy, just push to main.
 
 # Adding new Articles or Projects
 
@@ -22,5 +24,4 @@ For articles, the metadata should have only:
 - *title* - Title of the article;
 - *createdAt* - When the post was created.
 
-Use the command `npm link` or `sudo npm link` to setup the CLI generator for this project and then you can
-use the command `doug-gen` to generate new Articles or Projects.
+Use the command `yarn doug-gen` to generate new Articles or Projects.

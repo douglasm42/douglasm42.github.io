@@ -14,10 +14,8 @@
     "build": "yarn prebuild && next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "tsx ./scripts/prebuild.ts"
-  },
-  "bin": {
-    "doug-gen": "tsx ./scripts/generate.ts"
+    "prebuild": "tsx ./scripts/prebuild.ts",
+    "doug-gen": "tsx ./scripts/generate.ts && yarn prebuild"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
