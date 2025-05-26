@@ -28,7 +28,7 @@ function createProject(filename) {
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   
-  fs.writeFileSync(`./src/pages/projects/${filenameTimestamped}.json`, `{
+  fs.writeFileSync(`./public/projects/${filenameTimestamped}.json`, `{
   "title": "${filename}",
   "homepage": "https://example.com",
   "repository": "https://github.com/douglasm42/${filename}",
@@ -36,20 +36,20 @@ function createProject(filename) {
   "updatedAt": "${isoTimestamp(ts)}"
 }
 `)
-  fs.writeFileSync(`./src/pages/projects/${filenameTimestamped}.md`, `# ${filename}\n`)
+  fs.writeFileSync(`./public/projects/${filenameTimestamped}.md`, `# ${filename}\n`)
 }
 
 function createPost(filename) {
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   
-  fs.writeFileSync(`./src/pages/articles/${filenameTimestamped}.json`, `{
+  fs.writeFileSync(`./public/articles/${filenameTimestamped}.json`, `{
   "title": "${filename}",
   "tags": [],
   "createdAt": "${isoTimestamp(ts)}"
 }
 `)
-  fs.writeFileSync(`./src/pages/articles/${filenameTimestamped}.md`, `# ${filename}\n`)
+  fs.writeFileSync(`./public/articles/${filenameTimestamped}.md`, `# ${filename}\n`)
 }
 
 program
