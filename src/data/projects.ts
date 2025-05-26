@@ -25,6 +25,10 @@ const projects = [
     metadataPath: '/projects/20230511083645_cascalho.json',
     markdownPath: '/projects/20230511083645_cascalho.md',
   },
+  {
+    metadataPath: '/projects/20250526002820_yugioh-fm.json',
+    markdownPath: '/projects/20250526002820_yugioh-fm.md',
+  },
 ]
 
 export default projects
