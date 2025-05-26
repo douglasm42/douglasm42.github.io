@@ -10,6 +10,6 @@ interface TagProps {
 
 export default function Tag({ color='lblue', type='middle', children }: TagProps) {
   return (
-    <span className={`tag bg-${color} tag-${type}`}>{children}</span>
+    <span className={`tag tag-${type}`} style={{backgroundColor: `var(--color-${color})`}}>{children}</span>
   )
 }

@@ -9,8 +9,8 @@ interface ProgressBarProps {
 
 export default function ProgressBar({ color='lblue', progress=10 }: ProgressBarProps) {
   return (
-    <div className='progress-bar-background bg-gray6'>
-      <div className={`progress-bar-foreground bg-${color}`} style={{width: progress+'%'}}></div>
+    <div className='progress-bar-background'>
+      <div className={`progress-bar-foreground`} style={{width: progress+'%', backgroundColor: `var(--color-${color})`}}></div>
     </div>
   )
 }
