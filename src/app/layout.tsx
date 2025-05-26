@@ -37,7 +37,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${lato.variable} ${robotoSlab.variable} ${robotoMono.variable}`}>
         <div className="container">
           <Header />
           <Content>

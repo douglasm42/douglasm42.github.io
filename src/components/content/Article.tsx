@@ -16,7 +16,7 @@ export default function Article({ title, footer, tags=[], children }: ArticlePro
     <Card>
       <article className="article">
         <h2 className="article-title">{title}</h2>
-        {tags.map(tag => <Tag color='lblue'>{tag}</Tag>)}
+        {tags.map(tag => <Tag key={tag} color='lblue'>{tag}</Tag>)}
         <div className="article-content">
           {children}
         </div>

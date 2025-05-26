@@ -17,7 +17,7 @@ export default function Page() {
           <Title level='h6'>Bio</Title>
           <Ruler/>
           <p>
-            Hi, I'm a Software Engineer with 7+ years of experience in Web Development.
+            Hi, I&apos;m a Software Engineer with 7+ years of experience in Web Development.
             6 of those were working with Ruby on Rails. I also worked with Java EE for almost a year.
           </p>
           <p>
@@ -27,11 +27,11 @@ export default function Page() {
           </p>
           <p>
             I know how to work on teams, always looking for help when stuck and willing to help others.
-            I'm very patient when dealing with people and always got very good feedback because of that. It's extremely
+            I&apos;m very patient when dealing with people and always got very good feedback because of that. It&apos;s extremely
             hard for me to get mad or show bad behaviour.
           </p>
           <p>
-            I'm very curious and really love to learn how everything works. On my steam profile, you can see that my
+            I&apos;m very curious and really love to learn how everything works. On my steam profile, you can see that my
             most played games has something to do with engineering or logical problem solving, like Factorio.
           </p>
           <p>
@@ -39,7 +39,7 @@ export default function Page() {
             And all of these help me in some way to become a better person and a better developer.
           </p>
           <p>
-            I'm currently looking for new challenging projects. If you're interested and want to know more,
+            I&apos;m currently looking for new challenging projects. If you&apos;re interested and want to know more,
             check out my projects and my LinkedIn profile.
           </p>
         </div>

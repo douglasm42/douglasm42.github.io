@@ -1,0 +1,18 @@
+import { Url } from "next/dist/shared/lib/router/router"
+
+export interface ProjectMetadata {
+  title: string,
+  homepage?: Url,
+  repository?: Url,
+  tags: string[],
+  updatedAt: string
+}
+
+const projects = [<% pages.forEach( page => {%>
+  {
+    metadataPath: '<%- root %>/<%- page.metadataPath %>',
+    markdownPath: '<%- root %>/<%- page.markdownPath %>',
+  },<% }) %>
+]
+
+export default projects

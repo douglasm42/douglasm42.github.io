@@ -20,9 +20,6 @@ export default function Contact() {
       <Detail name='GitHub'>
         <a target="_blank" rel="noreferrer" href="https://github.com/douglasm42/">github.com/douglasm42</a>
       </Detail>
-      <Detail name='Twitch' tags={['PT-BR']}>
-        <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/douglasm42">DouglasM42</a>
-      </Detail>
       <Detail name='Steam'>
         <a target="_blank" rel="noreferrer" href="https://steamcommunity.com/id/douglasm42/">Dark Terraria</a>
       </Detail>

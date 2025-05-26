@@ -15,7 +15,7 @@ body {
   background-size: auto 1200px; /* Resize the background image to cover the entire container */
   background-color: #3a4557;
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-lato), sans-serif;
   min-height: 100vh;
 }
 

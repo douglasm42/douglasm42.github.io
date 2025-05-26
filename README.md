@@ -2,7 +2,7 @@ This is my personal website. Built using ReactJS and create-react-app.
 
 # Running
 
-To run in development mode, use the command: `yarn start`
+To run in development mode, use the command: `yarn dev`
 
 To build and deploy, use the command: `yarn build`
 

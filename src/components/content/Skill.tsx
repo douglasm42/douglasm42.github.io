@@ -10,7 +10,7 @@ interface SkillProps {
   level?: number
 }
 
-export default function Skill({ name, current, max, level }: SkillProps) {
+export default function Skill({ name, current, max }: SkillProps) {
   return (
     <div className="skill-root">
       <div className="skill-container">

@@ -11,7 +11,7 @@
   text-decoration: none;
   text-align: center;
   font-size: 24px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: var(--font-roboto-mono), monospace;
 
   background: inherit;
   line-height: normal;

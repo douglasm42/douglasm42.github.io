@@ -27,7 +27,7 @@ export default function Project({ metadataFile, markdownFile }: ProjectProps) {
       .then(responseText => setMarkdown(responseText))
   }, [markdownFile]);
 
-  let links = []
+  const links = []
 
   if(metadata && markdown) {
     if(metadata.homepage) {

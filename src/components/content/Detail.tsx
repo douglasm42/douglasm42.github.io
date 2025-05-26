@@ -10,7 +10,7 @@ interface DetailProps {
 }
 
 export default function Detail({ name, tags=[], children }: DetailProps) {
-  const componentTags = tags.map(tag => (<Tag color='green' type='sup'>{tag}</Tag> ))
+  const componentTags = tags.map(tag => (<Tag key={tag} color='green' type='sup'>{tag}</Tag> ))
   return (
     <div className='detail'>
       <div className='detail-name'><strong>{componentTags} {name}:</strong></div>

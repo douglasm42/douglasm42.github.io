@@ -16,5 +16,5 @@
 .article-footer {
   color: #bed6ff;
   font-size: 12px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: var(--font-roboto-mono), monospace;
 }

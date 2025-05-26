@@ -1,5 +1,6 @@
 import React from 'react'
 import './Avatar.css'
+import Image from 'next/image'
 
 interface AvatarProps {
   src: string
@@ -7,6 +8,6 @@ interface AvatarProps {
 
 export default function Avatar({ src }: AvatarProps) {
   return (
-    <img src={src} className="avatar-image" alt="" />
+    <Image src={src} className="avatar-image" alt="" width={100} height={100} />
   )
 }

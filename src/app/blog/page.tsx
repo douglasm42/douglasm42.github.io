@@ -8,6 +8,7 @@ export default function Blog() {
   const posts = articles.map(article => (
     <Post key={article.markdownPath} metadataPath={article.metadataPath} markdownPath={article.markdownPath} />
   ))
+
   return (
     <div>
       {posts}

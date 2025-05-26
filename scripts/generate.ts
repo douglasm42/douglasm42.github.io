@@ -1,11 +1,20 @@
 #!/usr/bin/env node
 
-const fs = require('fs')
+import fs from 'fs'
+import { program } from 'commander'
 
-const { program } = require('commander');
 program.version('0.0.1');
 
-function timestamp(date) {
+interface TimeStamp {
+  Y: string
+  M: string
+  D: string
+  h: string
+  m: string
+  s: string
+}
+
+function timestamp(date: Date): TimeStamp {
   return {
     Y: date.getFullYear().toString().padStart(4, '0'),
     M: (date.getMonth()+1).toString().padStart(2, '0'),
@@ -16,15 +25,15 @@ function timestamp(date) {
   }
 }
 
-function fileTimestamp(ts) {
+function fileTimestamp(ts: TimeStamp) {
   return `${ts.Y}${ts.M}${ts.D}${ts.h}${ts.m}${ts.s}`
 }
 
-function isoTimestamp(ts) {
+function isoTimestamp(ts: TimeStamp) {
   return `${ts.Y}-${ts.M}-${ts.D} ${ts.h}:${ts.m}`
 }
 
-function createProject(filename) {
+function createProject(filename: string) {
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   
@@ -39,7 +48,7 @@ function createProject(filename) {
   fs.writeFileSync(`./public/projects/${filenameTimestamped}.md`, `# ${filename}\n`)
 }
 
-function createPost(filename) {
+function createPost(filename: string) {
   const ts = timestamp(new Date())
   const filenameTimestamped = `${fileTimestamp(ts)}_${filename}`
   
@@ -62,4 +71,4 @@ program
   .description('create a new post in the blog')
   .action(createPost)
 
-program.parse(process.argv);
+program.parse(process.argv)

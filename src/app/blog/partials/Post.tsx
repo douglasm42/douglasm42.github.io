@@ -33,10 +33,12 @@ export default function Post({ metadataPath, markdownPath }: PostProps) {
       </Article>
     )
   } else {
-    <Card>
-      <article className="article">
-        <p>Loading...</p>
-      </article>
-    </Card>
+    return (
+      <Card>
+        <article className="article">
+          <p>Loading...</p>
+        </article>
+      </Card>
+    )
   }
 }
